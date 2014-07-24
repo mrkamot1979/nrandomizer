@@ -16,30 +16,30 @@
 	
 	$jpwords[2] = array(
 		"jpword" => "買い替えた",
-		"yomikata" => "しょうひでんりょく",
-		"engdef" => "electic consumption"
+		"yomikata" => "かいかいた",
+		"engdef" => "buy to change"
 	);
-
+	
+	$jpwords[3] = array(
+		"jpword" => "宣伝",
+		"yomikata" => "宣伝",
+		"engdef" => "advertisement"
+	);
 	
 ?>
 
 <html>
 		<head>
 			<style>
-			.big {
-				font-size: 520%;
-				color : red;
-			}	
-			
-			.hidden {
-				color: white;
-			}
-			
-			
+			.big { font-size: 520%; color : red;}	
+			.hidden { color: white;}
 			</style>
 		</head>
 
 	<body>
+		<?php //create a randomizer ;?>
+		
+		
 		<center>
 			<font class="big"><?php echo $jpwords[101]["jpword"];?></font>
 			<br><br>
