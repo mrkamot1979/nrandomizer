@@ -44,6 +44,49 @@ header('Content-Type: text/html;charset=utf-8');
 		"engdef" => "local train/stops at every station"
 	);
 	
+	$jpwords[6] = array(
+		"jpword" => "快速",
+		"yomikata" => "かいそく",
+		"engdef" => "high speed i.e. train"
+	);
+	
+	$jpwords[7] = array(
+		"jpword" => "歩行者",
+		"yomikata" => "ほこうしゃ",
+		"engdef" => "pedestrian"
+	);
+	
+	$jpwords[8] = array(
+		"jpword" => "歩行者",
+		"yomikata" => "ほこうしゃ",
+		"engdef" => "pedestrian"
+	);
+	
+	$jpwords[9] = array(
+		"jpword" => "特徴",
+		"yomikata" => "とくちょう",
+		"engdef" => "characteristics/functions"
+	);
+	
+	$jpwords[10] = array(
+		"jpword" => "友人",
+		"yomikata" => "ゆうじん",
+		"engdef" => "friend"
+	);
+	
+$jpwords[11] = array(
+		"jpword" => "整理",
+		"yomikata" => "せいり",
+		"engdef" => "to arrange"
+	);
+	
+		
+$jpwords[12] = array(
+		"jpword" => "少",
+		"yomikata" => "すく",
+		"engdef" => "a little, a few e.g. 少ない時間 means 'limited time'"
+	);
+	
 	
 	
 ?>
