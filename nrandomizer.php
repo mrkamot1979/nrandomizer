@@ -1,31 +1,8 @@
 ﻿<?php
 	//make sure to set the characterset to UTF-8
 	header('Content-Type: text/html;charset=utf-8');
-	//create an array containing the text
-	$jpwords = array();
-	$jpwords[0] = array(
-		"jpword" => "容量",
-		"yomikata" => "ようりょう",
-		"engdef" => "capacity"
-	);
-	$jpwords[1] = array(
-		"jpword" => "消費電力",
-		"yomikata" => "しょうひでんりょく",
-		"engdef" => "electic consumption"
-	);
-	
-	$jpwords[2] = array(
-		"jpword" => "買い替えた",
-		"yomikata" => "かいかいた",
-		"engdef" => "buy to change"
-	);
-	
-	$jpwords[3] = array(
-		"jpword" => "宣伝",
-		"yomikata" => "宣伝",
-		"engdef" => "advertisement"
-	);
-	
+	//require the jpwords.php file
+	require_once('jpwords.php');
 ?>
 
 <html>
@@ -38,7 +15,8 @@
 
 	<body>
 		<?php 
-		$randomkey = rand(0,3);
+		$randomkey = rand(0,count($jpwords)-1);
+		echo $randomkey;
 		?>
 		
 		
