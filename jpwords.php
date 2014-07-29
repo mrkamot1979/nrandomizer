@@ -35,13 +35,13 @@ header('Content-Type: text/html;charset=utf-8');
 		"jpword" => "ゴミ箱",
 		"yomikata" => "ごみはこ",
 		"engdef" => "trashcan",
-		"jpusage" => "この公園であんまりゴミ箱がないですようね。";	
+		"jpusage" => "この公園であんまりゴミ箱がないですようね。"	
 	);
 	
 	$jpwords[5] = array(
 		"jpword" => "各駅電車",
 		"yomikata" => "かくえきでんしゃ",
-		"engdef" => "local train/stops at every station"
+		"engdef" => "local train/stops at every station",
 		"jpusage" => "次の駅は各駅電車と横浜で止ります。"
 
 	);
