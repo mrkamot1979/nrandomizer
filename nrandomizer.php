@@ -27,6 +27,8 @@
 			<font class="hidden" size="36"><?php echo $jpwords[$randomkey]["yomikata"];?></font>
 			<br><br>
 			<font class="hidden"  size="36"><?php echo $jpwords[$randomkey]["engdef"];?></font>
+			<br><br>
+			<font class="hidden" size="36"><?php echo $jpwords[$randomkey]["jpusage"]?> </font>
 		</center>
 
 	</body>
