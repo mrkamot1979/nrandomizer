@@ -16,7 +16,11 @@
 	<body>
 		<?php 
 		$randomkey = rand(0,count($jpwords)-1);
+		/*echo count($jpwords)-1;
+		echo "<br>";
 		echo $randomkey;
+		exit;
+		*/
 		?>
 		
 		
