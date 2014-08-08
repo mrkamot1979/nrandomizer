@@ -3,23 +3,21 @@
 header('Content-Type: text/html;charset=utf-8');
 
 
-
-
 function getRandomJPWord() {
 	$allJP = getAllJPWords(); //assign a variable for the return value of getAllJPWords()
 	$countAllJP = count($allJP); //count the array size
 	$randomkey = rand(0, $countAllJP-1); //generate the random key using the $countAllJP
-	$randomword = $allJP[$randomkey]["jpword"];
+	$randomword = array( //created a new array to hold the randomized results from the $jpwords array
+		$allJP[$randomkey]["jpword"],
+		$allJP[$randomkey]["yomikata"],
+		$allJP[$randomkey]["engdef"],
+		$allJP[$randomkey]["jpusage"]
+		);
 	return $randomword;
-	//return $randomkey; //return the randomkey;
 }
 
-
-
-
-
 //create an array containing the text
-function getAllJPWords () {
+function getAllJPWords () { //this function was created so that you can access the contents of the 								//array
 	$jpwords = array();
 	$jpwords[0] = array(
 		"jpword" => "容量",
