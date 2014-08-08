@@ -3,15 +3,19 @@
 header('Content-Type: text/html;charset=utf-8');
 
 
-function getRandomKey() {
-	$allJP = getAllJPWords();
-	$countAllJP = count($allJP);
-	/*$randomkey = rand(0,$countJPWords-1);
-	return $randomkey;
-	*/
-	echo $countAllJP;
-	exit;
+
+
+function getRandomJPWord() {
+	$allJP = getAllJPWords(); //assign a variable for the return value of getAllJPWords()
+	$countAllJP = count($allJP); //count the array size
+	$randomkey = rand(0, $countAllJP-1); //generate the random key using the $countAllJP
+	$randomword = $allJP[$randomkey]["jpword"];
+	return $randomword;
+
+
+	//return $randomkey; //return the randomkey;
 }
+
 
 
 
