@@ -11,8 +11,6 @@ function getRandomJPWord() {
 	$randomkey = rand(0, $countAllJP-1); //generate the random key using the $countAllJP
 	$randomword = $allJP[$randomkey]["jpword"];
 	return $randomword;
-
-
 	//return $randomkey; //return the randomkey;
 }
 
