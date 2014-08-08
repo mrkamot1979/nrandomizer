@@ -15,18 +15,14 @@
 
 	<body>
 		<?php 
-		//$randomkey = rand(0,count($jpwords)-1);
-		/*echo count($jpwords)-1;
-		echo "<br>";
-		echo $randomkey;
-		exit;
-		*/
-		echo getRandomKey();
+		$randomword = getRandomJPWord();
+		echo $randomword;
 		exit;
 		?>
 		
 		
 		<center>
+			<?php $jpwords = getAllJPWords(); ?>
 			<font class="big"><?php echo $jpwords[$randomkey]["jpword"];?></font>
 			<br><br>
 			<!-- making these text "invisible" by making them white -->
