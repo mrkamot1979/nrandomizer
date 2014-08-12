@@ -17,8 +17,8 @@ function getRandomJPWord() {
 }
 
 //create an array containing the text
-function getAllJPWords () { //this function was created so that you can access the contents of the 								//array
-	$jpwords = array();
+function getAllJPWords () { //this function was created so that you can access the contents 
+	$jpwords = array();     //of the array
 	$jpwords[0] = array(
 		"jpword" => "容量",
 		"yomikata" => "ようりょう",
