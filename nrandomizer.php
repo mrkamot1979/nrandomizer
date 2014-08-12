@@ -24,19 +24,7 @@
 		<br><br>
 		<font class="hidden"><?php echo $randomword[3]; ?> </font>
 		</center>
-	<!--	
-		<center>
-			
-			<font class="big"><?php echo $jpwords[$randomkey]["jpword"];?></font>
-			<br><br>
-			<making these text "invisible" by making them white >
-			<font class="hidden" size="36"><?php echo $jpwords[$randomkey]["yomikata"];?></font>
-			<br><br>
-			<font class="hidden"  size="36"><?php echo $jpwords[$randomkey]["engdef"];?></font>
-			<br><br>
-			<font class="hidden" size="36"><?php echo $jpwords[$randomkey]["jpusage"]?> </font>
-		</center-->
-
+	
 	
 
 	</body>
