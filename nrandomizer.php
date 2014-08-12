@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 	//make sure to set the characterset to UTF-8
 	header('Content-Type: text/html;charset=utf-8');
 	//require the jpwords.php file
@@ -18,11 +18,12 @@
 		<?php $randomword = getRandomJPWord(); ?>
 		<font class="big"><?php echo $randomword[0]; ?></font>
 		<br><br>
-		<font class="hidden"><?php echo $randomword[1]; ?></font>
-		<br><br>
-		<font class="hidden"><?php echo $randomword[2]; ?></font>
-		<br><br>
-		<font class="hidden"><?php echo $randomword[3]; ?> </font>
+		
+		<?php //FOR block to loop through the hidden words
+		for ($i=1; $i<=3; $i++) {; ?>
+				<font class="hidden"><?php echo $randomword[$i]; ?></font>
+				<br><br>
+		<?php }; ?>
 		</center>
 	
 	
