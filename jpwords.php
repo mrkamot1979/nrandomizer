@@ -66,42 +66,42 @@ function getAllJPWords () { //this function was created so that you can access t
 		"jpword" => "快速",
 		"yomikata" => "かいそく",
 		"engdef" => "high speed i.e. train",
-		"jpusage" => "#"
+		"jpusage" => "この道は快速です。"
 	);
 	
 	$jpwords[7] = array(
-		"jpword" => "歩行者",
-		"yomikata" => "ほこうしゃ",
-		"engdef" => "pedestrian",
-		"jpusage" => "#"
+		"jpword" => "窓",
+		"yomikata" => "まど",
+		"engdef" => "window",
+		"jpusage" => "窓から富士山に見られます。"
 	);
 	
 	$jpwords[8] = array(
 		"jpword" => "歩行者",
 		"yomikata" => "ほこうしゃ",
 		"engdef" => "pedestrian",
-		"jpusage" => "#"
+		"jpusage" => "道の横に歩行者が歩いています。"
 	);
 	
 	$jpwords[9] = array(
 		"jpword" => "特徴",
 		"yomikata" => "とくちょう",
 		"engdef" => "characteristics/functions",
-		"jpusage" => "#"
+		"jpusage" => "この家電は便利な特徴があります。"
 	);
 	
 	$jpwords[10] = array(
 		"jpword" => "友人",
 		"yomikata" => "ゆうじん",
 		"engdef" => "friend",
-		"jpusage" => "#"
+		"jpusage" => "友人に私のパソコンを使わりました"
 	);
 	
 $jpwords[11] = array(
 		"jpword" => "整理",
 		"yomikata" => "せいり",
 		"engdef" => "to arrange",
-		"jpusage" => "#"
+		"jpusage" => "部屋で服を整理ました"
 	);
 	
 
