@@ -8,11 +8,11 @@ function getRandomJPWord() {
 	$countAllJP = count($allJP); //count the array size
 	$randomkey = rand(0, $countAllJP-1); //generate the random key using the $countAllJP
 	$randomword = array( //created a new array to hold the randomized results from the $jpwords array
-		$allJP[$randomkey]["jpword"],
-		$allJP[$randomkey]["yomikata"],
-		$allJP[$randomkey]["engdef"],
-		$allJP[$randomkey]["jpusage"]
-		);
+					$allJP[$randomkey]["jpword"],
+					$allJP[$randomkey]["yomikata"],
+					$allJP[$randomkey]["engdef"],
+					$allJP[$randomkey]["jpusage"]
+	);
 	return $randomword;
 }
 
