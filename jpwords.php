@@ -112,6 +112,38 @@ $jpwords[12] = array(
 		"jpusage" => "#"
 	);
 
+
+$jpwords[13] = array(
+		"jpword" => "側",
+		"yomikata" => "がわ",
+		"engdef" => "...side, ",
+		"jpusage" => "窓側に友人が座っているんです。"
+	);
+
+$jpwords[14] = array(
+		"jpword" => "整理",
+		"yomikata" => "せいり",
+		"engdef" => "to arrange, arrangement",
+		"jpusage" => "整理券はさいふに入れました。"
+	);
+
+$jpwords[15] = array(
+		"jpword" => "亭",
+		"yomikata" => "てい",
+		"engdef" => "stop, i.e. bus stop",
+		"jpusage" => "バス亭はここから５分ぐらいです。"
+	);
+
+$jpwords[16] = array(
+		"jpword" => "両替",
+		"yomikata" => "りょうがえ",
+		"engdef" => "to exchange, i.e. currency exchange",
+		"jpusage" => "空港に着いたあとに、早く米ドルを両替します。"
+	);
+
+
+
+
 	return $jpwords;
 }
 
