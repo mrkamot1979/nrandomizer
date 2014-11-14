@@ -141,8 +141,12 @@ $jpwords[16] = array(
 		"jpusage" => "空港に着いたあとに、早く米ドルを両替します。"
 	);
 
-
-
+$jpwords[16] = array(
+		"jpword" => "等",
+		"yomikata" => "など",
+		"engdef" => "kinds of, articles of...",
+		"jpusage" => "自転車等置いていない下さい"
+	);
 
 	return $jpwords;
 }
