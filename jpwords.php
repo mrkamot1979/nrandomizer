@@ -141,12 +141,44 @@ $jpwords[16] = array(
 		"jpusage" => "空港に着いたあとに、早く米ドルを両替します。"
 	);
 
-$jpwords[16] = array(
+$jpwords[17] = array(
 		"jpword" => "等",
 		"yomikata" => "など",
 		"engdef" => "kinds of, articles of...",
 		"jpusage" => "自転車等置いていない下さい"
 	);
+
+$jpwords[18] = array(
+		"jpword" => "お年寄り",
+		"yomikata" => "おとしより",
+		"engdef" => "the elderly",
+		"jpusage" => "電車でお年寄り人は優先席に座っています。"
+	);
+
+$jpwords[19] = array(
+		"jpword" => "不自由な～",
+		"yomikata" => "ふじゆな～",
+		"engdef" => "the disabled",
+		"jpusage" => "電車で不信由な人も優先席に座ります。"
+
+
+
+	);	
+
+$jpwords[20] = array(
+		"jpword" => "優先席",
+		"yomikata" => "ゆうせんせき",
+		"engdef" => "priority seat",
+		"jpusage" => "電車で優先席の内があります。。"
+
+
+
+	);	
+
+
+
+
+
 
 	return $jpwords;
 }
