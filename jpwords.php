@@ -170,7 +170,15 @@ $jpwords[20] = array(
 		"yomikata" => "ゆうせんせき",
 		"engdef" => "priority seat",
 		"jpusage" => "電車で優先席の内があります。。"
+		);
 
+
+
+$jpwords[21] = array(
+		"jpword" => "忘年会",
+		"yomikata" => "ぼうねんかい",
+		"engdef" => "end of year party; literally means 'forget the year party'",
+		"jpusage" => "１２月に居酒屋で忘年会を行われます"
 
 
 	);	
