@@ -183,6 +183,14 @@ $jpwords[21] = array(
 
 	);	
 
+$jpwords[22] = array(
+		"jpword" => "新年会",
+		"yomikata" => "しんねんかい",
+		"engdef" => "New Year's party",
+		"jpusage" => "年末に、たくさん新年会を行われます。"
+
+
+	);	
 
 
 
