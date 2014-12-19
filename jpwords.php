@@ -192,6 +192,14 @@ $jpwords[22] = array(
 
 	);	
 
+$jpwords[23] = array(
+		"jpword" => "定食",
+		"yomikata" => "定食",
+		"engdef" => "set meal, i.e. meal with every available food",
+		"jpusage" => "定食がなにが好きですか"
+
+	);
+
 
 
 
