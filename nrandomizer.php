@@ -15,6 +15,8 @@
 
 	<body>
 		<center>
+		<--!The CSS was made that the answers would be in white font so the User won't see it initially.  To see the answer  -->
+		<--!the User just has to highlight the space below -->											     
 		<?php $randomword = getRandomJPWord(); ?>
 		<font class="big"><?php echo $randomword[0]; ?></font>
 		<br><br>
